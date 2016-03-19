@@ -2,7 +2,7 @@ Package.describe({
   name: "lukeacl:uikit",
   version: "0.0.2",
   summary: "This package integrates UIKit v2.25.0 into Meteor with the base style.",
-  git: "https://github.com/lukeacl/uikit.git",
+  git: "https://github.com/lukeacl/uikit",
   documentation: "README.md"
 });
 
