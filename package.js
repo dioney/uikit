@@ -69,3 +69,9 @@ Package.onUse(function(api) {
     path.join(assetPath, "fonts", "FontAwesome.otf")
   ], "client");
 });
+
+Package.onTest(function(api) {
+  api.use("tinytest");
+  api.use("lukeacl:uikit");
+  api.addFiles("package-test.js");
+});
