@@ -8,7 +8,7 @@ Add the UIKit for Meteor package using the terminal while inside your project
 directory.
 
 ```shell
-meteor add lukeacl:uikit
+meteor add lukeacl:uikit-almost-flat
 ```
 
 ## Contribution
