@@ -1,8 +1,8 @@
 Package.describe({
-  name: "lukeacl:uikit",
+  name: "lukeacl:uikit-almost-flat",
   version: "0.0.2",
   summary: "This package integrates UIKit v2.25.0 into Meteor with the Almost Flat style.",
-  git: "https://github.com/lukeacl/uikit.git",
+  git: "https://github.com/lukeacl/uikit/tree/almost-flat",
   documentation: "README.md"
 });
 

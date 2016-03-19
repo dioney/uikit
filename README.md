@@ -1,4 +1,4 @@
-# UIKit for Meteor [![Build Status](https://travis-ci.org/lukeacl/uikit.svg?branch=master)](https://travis-ci.org/lukeacl/uikit)
+# UIKit for Meteor [![Build Status](https://travis-ci.org/lukeacl/uikit.svg?branch=almost-flat)](https://travis-ci.org/lukeacl/uikit)
 
 This package integrates [UIKit](http://getuikit.com/) v2.25.0 into [Meteor](https://www.meteor.com/) with the Almost Flat style.
 
