@@ -75,6 +75,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use("tinytest");
-  api.use("lukeacl:uikit");
+  api.use("lukeacl:uikit-almost-flat");
   api.addFiles("package-test.js");
 });
