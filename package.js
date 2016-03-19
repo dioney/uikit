@@ -1,8 +1,8 @@
 Package.describe({
-  name: "lukeacl:uikit",
+  name: "lukeacl:uikit-gradient",
   version: "0.0.2",
-  summary: "This package integrates UIKit v2.25.0 into Meteor with the base style.",
-  git: "https://github.com/lukeacl/uikit",
+  summary: "This package integrates UIKit v2.25.0 into Meteor with the Gradient style.",
+  git: "https://github.com/lukeacl/uikit/tree/gradient",
   documentation: "README.md"
 });
 
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom("1.2.1");
   api.use("jquery", "client");
   var path = Npm.require("path");
-  var cssStyle = "";
+  var cssStyle = "gradient";
   if (cssStyle != "") {
     cssStyle += ".";
   }
@@ -75,6 +75,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use("tinytest");
-  api.use("lukeacl:uikit");
+  api.use("lukeacl:uikit-gradient");
   api.addFiles("package-test.js");
 });

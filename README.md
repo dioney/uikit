@@ -1,6 +1,6 @@
-# UIKit for Meteor [![Build Status](https://travis-ci.org/lukeacl/uikit.svg?branch=master)](https://travis-ci.org/lukeacl/uikit)
+# UIKit for Meteor [![Build Status](https://travis-ci.org/lukeacl/uikit.svg?branch=gradient)](https://travis-ci.org/lukeacl/uikit)
 
-This package integrates [UIKit](http://getuikit.com/) v2.25.0 into [Meteor](https://www.meteor.com/) with the base style.
+This package integrates [UIKit](http://getuikit.com/) v2.25.0 into [Meteor](https://www.meteor.com/) with the Gradient style.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Add the UIKit for Meteor package using the terminal while inside your project
 directory.
 
 ```shell
-meteor add lukeacl:uikit
+meteor add lukeacl:uikit-gradient
 ```
 
 ## Contribution
