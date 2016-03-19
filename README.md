@@ -16,7 +16,7 @@ meteor add lukeacl:uikit
 Contributions are always welcome! If you've made some changes and you think they
 should be part of this package don't be afraid to submit a pull request along
 with some notes explaining the changes. If you need to ask any questions before
-you submit your pull request simply hit me up on [Twitter]((https://twitter.com/lukeacl) or shoot me an [Email](mailto:hello@lukeacl.com).
+you submit your pull request simply hit me up on [Twitter](https://twitter.com/lukeacl) or shoot me an [Email](mailto:hello@lukeacl.com).
 
 ## License
 
