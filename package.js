@@ -11,6 +11,9 @@ Package.onUse(function(api) {
   api.use("jquery", "client");
   var path = Npm.require("path");
   var cssStyle = "almost-flat";
+  if (cssStyle != "") {
+    cssStyle += ".";
+  }
   var assetPath = path.join("uikit-2.25.0");
   var cssAssetPath = path.join(assetPath, "css");
   var jsAssetPath = path.join(assetPath, "js");
