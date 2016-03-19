@@ -1,7 +1,7 @@
 Package.describe({
   name: "lukeacl:uikit",
   version: "0.0.2",
-  summary: "This package integrates UIKit v2.25.0 into Meteor with the base style.",
+  summary: "This package integrates UIKit v2.25.0 into Meteor with the Almost Flat style.",
   git: "https://github.com/lukeacl/uikit.git",
   documentation: "README.md"
 });
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom("1.2.1");
   api.use("jquery", "client");
   var path = Npm.require("path");
-  var cssStyle = "";
+  var cssStyle = "almost-flat";
   var assetPath = path.join("uikit-2.25.0");
   var cssAssetPath = path.join(assetPath, "css");
   var jsAssetPath = path.join(assetPath, "js");
