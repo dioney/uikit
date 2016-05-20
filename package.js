@@ -1,7 +1,7 @@
 Package.describe({
   name: "lukeacl:uikit",
-  version: "0.0.2",
-  summary: "This package integrates UIKit v2.25.0 into Meteor with the base style.",
+  version: "0.0.3",
+  summary: "This package integrates UIKit v2.26.3 into Meteor with the base style.",
   git: "https://github.com/lukeacl/uikit",
   documentation: "README.md"
 });
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   if (cssStyle != "") {
     cssStyle += ".";
   }
-  var assetPath = path.join("uikit-2.25.0");
+  var assetPath = path.join("uikit-2.26.3");
   var cssAssetPath = path.join(assetPath, "css");
   var jsAssetPath = path.join(assetPath, "js");
   api.addFiles([
@@ -41,6 +41,22 @@ Package.onUse(function(api) {
     path.join(cssAssetPath, "components", "tooltip." + cssStyle + "min.css"),
     path.join(cssAssetPath, "components", "upload." + cssStyle + "min.css"),
     path.join(assetPath, "js", "uikit.min.js"),
+    path.join(jsAssetPath, "core", "alert.min.js"),
+    path.join(jsAssetPath, "core", "button.min.js"),
+    path.join(jsAssetPath, "core", "core.min.js"),
+    path.join(jsAssetPath, "core", "cover.min.js"),
+    path.join(jsAssetPath, "core", "dropdown.min.js"),
+    path.join(jsAssetPath, "core", "grid.min.js"),
+    path.join(jsAssetPath, "core", "modal.min.js"),
+    path.join(jsAssetPath, "core", "nav.min.js"),
+    path.join(jsAssetPath, "core", "offcanvas.min.js"),
+    path.join(jsAssetPath, "core", "scrollspy.min.js"),
+    path.join(jsAssetPath, "core", "smooth-scroll.min.js"),
+    path.join(jsAssetPath, "core", "switcher.min.js"),
+    path.join(jsAssetPath, "core", "tab.min.js"),
+    path.join(jsAssetPath, "core", "toggle.min.js"),
+    path.join(jsAssetPath, "core", "touch.min.js"),
+    path.join(jsAssetPath, "core", "utility.min.js"),
     path.join(jsAssetPath, "components", "accordion.min.js"),
     path.join(jsAssetPath, "components", "autocomplete.min.js"),
     path.join(jsAssetPath, "components", "datepicker.min.js"),
